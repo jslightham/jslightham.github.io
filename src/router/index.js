@@ -3,6 +3,7 @@ import Home from "@/views/Home.vue";
 import Work from "@/views/Work.vue";
 import Zork from "@/views/Zork.vue";
 import CodeServer from "@/views/CodeServer.vue";
+import Resume from "@/views/Resume.vue";
 
 const routes = [
     {
@@ -24,7 +25,12 @@ const routes = [
         path: "/codeserver",
         name: "CodeServer",
         component: CodeServer,
-    }
+    },
+    {
+        path: "/resume",
+        name: "Resume",
+        component: Resume,
+    },
 ];
 
 const router = createRouter({

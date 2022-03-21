@@ -40,7 +40,7 @@
           <router-link to="Work"
             ><a class="mr-5 hover:text-white">Work</a></router-link
           >
-          <a class="mr-5 hover:text-white">Resume</a>
+          <router-link to="/resume"> <a class="mr-5 hover:text-white">Resume</a> </router-link>
         </nav>
         <a href="https://github.com/jslightham">
         <button

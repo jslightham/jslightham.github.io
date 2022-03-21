@@ -1,7 +1,7 @@
 <template>
   <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
     <div class="container px-5 py-24 mx-auto">
-        <p>Check out some of my projects! I'm not yet done setting up each project on my VPS yet, so not every project is hosted yet.</p>
+        <p>Check out some of my projects! I'm not yet done setting up each project on my VPS yet, so not every project is hosted.</p>
         <br>
       <div class="-my-8 divide-y-2 divide-gray-800">
         <div class="py-8 flex flex-wrap md:flex-nowrap">
@@ -140,7 +140,7 @@
               Zero Waste Game
             </h2>
             <p class="leading-relaxed">
-              A group project where we created a multiplayer space exploration game in Unity. 
+              A group project where we created a multiplayer space exploration game in Unity. This game is currently hosted in a private repository, thus I cannot provide a link.
             </p>
           </div>
         </div>

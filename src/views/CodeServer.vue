@@ -8,13 +8,16 @@
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
           Built a RESTful API that can compile and run code on a remote server
           in isolated docker containers. Easily add support for any language
-          that can be compiled and run from a bash script.
+          that can be compiled and run from a bash script. The code editor on this page is a simple editor powered by Prism syntax highlighting.
+        </p>
+        <p>
+          <br>
+          Check out this project on <a href="https://github.com/jslightham/rest-remote-code-server">GitHub</a>!
         </p>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
         <br>
-          Java is run Main.jar, and thus needs to be placed in the Main class.
+          The demo below is hosted on a RaspberryPi and may take a while to compile &amp; run. After 10 seconds, your docker instance will be automatically killed and removed. Java will compile the "Main" class, and thus your main method needs to be placed in the Main class. Start by selecting a language from the dropdown.
         </p>
-
         <div class="bg-zinc-800 align-left" style="margin-top: 15px">
           Code:
           <prism-editor
@@ -176,5 +179,9 @@ export default {
 .align-left {
   text-align: left;
   padding: 10px;
+}
+p a {
+  color: #fff;
+  text-decoration: underline;
 }
 </style>

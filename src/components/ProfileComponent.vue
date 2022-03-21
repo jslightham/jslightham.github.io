@@ -38,9 +38,10 @@
         <p class="mb-8 leading-relaxed">
           I am a computer engineering student at the University of Waterloo. I have a passion for machine learning, and love working on open source projects.
           <br><br>
-          Connect with me!
+          Browse my website to check out some of my projects or connect with me!
         </p>
         <div class="flex justify-center">
+          <router-link to="/resume">
           <button
             class="
               inline-flex
@@ -57,6 +58,8 @@
           >
             Resume
           </button>
+          </router-link>
+          <a href="https://ca.linkedin.com/in/johnathon-slightham-5123a4201">
           <button
             class="
               ml-4
@@ -74,6 +77,7 @@
           >
             LinkedIn
           </button>
+          </a>
         </div>
       </div>
     </div>
