@@ -13,12 +13,14 @@
       "
     >
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+      <center>
         <img
           class="object-cover object-center rounded"
           style="max-height: 350px;"
           alt="hero"
           :src="profile"
         />
+        </center>
       </div>
       <div
         class="
@@ -36,9 +38,9 @@
           Johnathon Slightham
         </h1>
         <p class="mb-8 leading-relaxed">
-          I am a computer engineering student at the University of Waterloo. I have a passion for machine learning, and love working on open source projects.
+          I am an undergraduate student studying Computer Engineering at the University of Waterloo. I love open source projects, and working on useful applications that are used by the public. The majority of my work so far has been in Full-Stack development, with a focus on Back End develoment. I also have a passion for machine learning, which I am currently working towards developing my skills in.
           <br><br>
-          Browse my website to check out some of my projects or connect with me!
+          Browse my website to check out some of my projects or connect with me. I am always open to working on new projects!
         </p>
         <div class="flex justify-center">
           <router-link to="/resume">

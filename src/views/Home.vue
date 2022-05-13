@@ -1,7 +1,5 @@
 <template>
-  <div>
     <ProfileComponent></ProfileComponent>
-  </div>
 </template>
 
 <script>

@@ -1,4 +1,5 @@
 <template>
+ <div class="md:container md:mx-auto">
   <div class="text-gray-400 bg-gray-900 body-font app">
     <header class="text-gray-400 bg-gray-900 body-font">
       <div
@@ -78,6 +79,7 @@
     <transition name="fade" mode="out-in">
       <router-view />
     </transition>
+  </div>
   </div>
 </template>
 

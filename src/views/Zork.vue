@@ -58,7 +58,7 @@ export default {
     if (!this.loaded) {
       this.loaded = true;
       console.log("Here");
-      this.socket = io.connect("localhost:4000");
+      this.socket = io.connect("jslightham:4000");
       this.runCode();
     }
   },
