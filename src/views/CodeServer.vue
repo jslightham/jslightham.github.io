@@ -121,7 +121,7 @@ export default {
   methods: {
     async runCode() {
       this.data = [];
-      let res = await fetch("http://jslightham.com:8000/run/run", {
+      let res = await fetch("https://jslightham.com:8000/run/run", {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -152,7 +152,7 @@ export default {
       return highlight(code, languages.js); // languages.<insert language> to return html with markup
     },
     async getLanguages() {
-      let res = await fetch("http://jslightham:8000/run/languages");
+      let res = await fetch("https://jslightham:8000/run/languages");
       this.languages = await res.json();
     },
   },
