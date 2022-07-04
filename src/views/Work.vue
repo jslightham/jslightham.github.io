@@ -1,6 +1,9 @@
 <template>
     <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+          My Work
+        </h1>
           <p>Check out some of my projects! I'm not yet done setting up each project on my VPS yet, so not every project is hosted.</p>
           <br>
           

@@ -4,6 +4,7 @@ import Work from "@/views/Work.vue";
 import Zork from "@/views/Zork.vue";
 import CodeServer from "@/views/CodeServer.vue";
 import Resume from "@/views/Resume.vue";
+import Blog from "@/views/Blog.vue";
 
 const routes = [
     {
@@ -30,6 +31,11 @@ const routes = [
         path: "/resume",
         name: "Resume",
         component: Resume,
+    },
+    {
+        path: "/blog",
+        name: "Blog",
+        component: Blog,
     },
 ];
 

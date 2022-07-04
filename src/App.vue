@@ -24,7 +24,7 @@
             md:mb-0
           "
         >
-          <span class="ml-3 text-xl">Johnathon Slightham</span>
+          <span class="ml-3 text-xl" style="margin-left: auto; margin-right: auto;">Johnathon Slightham</span>
         </a>
         <nav
           class="
@@ -34,6 +34,7 @@
             text-base
             justify-center
           "
+          style="margin-left: auto; margin-right: auto;"
         >
           <router-link to="/"
             ><a class="mr-5 hover:text-white">Home</a></router-link
@@ -41,7 +42,10 @@
           <router-link to="Work"
             ><a class="mr-5 hover:text-white">Work</a></router-link
           >
-          <router-link to="/resume"> <a class="mr-5 hover:text-white">Resume</a> </router-link>
+          <router-link to="Blog"
+            ><a class="mr-5 hover:text-white">Blog</a></router-link
+          >
+          <router-link to="/resume"> <a class="mr-5 hover:text-white">Resume</a></router-link>
         </nav>
         <a href="https://github.com/jslightham">
         <button
